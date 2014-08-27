@@ -1,0 +1,14 @@
+{
+        "manifest_version": 2,
+        "name": "Hodor",
+        "version": "0.1",
+        "description": "Hodor hodor hodor HODOR",
+        "content_scripts": 
+        [
+                {
+                        "matches": ["*://*/*"],
+                        "js": ["content_script.js"],
+                        "run_at": "document_end"
+                }
+        ]
+}
